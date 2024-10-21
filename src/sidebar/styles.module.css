@@ -1,0 +1,10 @@
+.sidebar {  
+  background: var(--primary);
+  max-width: 250px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}

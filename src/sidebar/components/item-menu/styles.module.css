@@ -1,0 +1,26 @@
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--primary);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--secundary-text);
+  padding: 15px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.submenu {
+  display: block;  
+  background: var(--primary-hover);
+  padding: 15px 15px 15px 35px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--secundary-text);
+  text-align: left;
+  cursor: pointer; 
+  border: none;
+  outline: none;
+}
